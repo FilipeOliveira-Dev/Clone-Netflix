@@ -17,7 +17,7 @@
 # 📌 Status do projeto: Concluído
 
 <li> Day 01 - Banner ✅
-<li> Day 02 - Menu de Navegação
+<li> Day 02 - Menu de Navegação ✅
 <li> Day 03 - Trilho: Minha Lista
 <li> Day 04 - Trilho: Em Alta (com hover)
 <li> Day 05 - Trilho: Séries estrangeiras (com slider)

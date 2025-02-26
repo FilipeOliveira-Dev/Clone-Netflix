@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/_reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -10,83 +11,224 @@
 </head>
 <body>
     <div class="background__img">
-
-    <header>
-        <div>
-            <a href="http://Netflix.com.br">
-                <img class="header__img" src="/images/logo.png" alt="Logo do Netflix">
-            </a>
-        </div>
-        
-        <div class="navbar">  
-            <nav class="navbar__mapa">
-                <ul>
-                    <li>
-                        <a href="http://">Início</a>    
-                    </li>
-                    <li>
-                        <a href="http://">Séries</a>    
-                    </li>
-                    <li>
-                        <a href="http://">Filmes</a>    
-                    </li>
-                    <li>
-                        <a href="http://">Bombando</a>    
-                    </li>
-                    <li>
-                        <a href="http://">Minha Lista</a>    
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="navbar__user">
-                <ul>
-                    <li>
-                        <a href="#" class="searchTab" id="searchTab">
-                        <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>
-                    </li>
-                    <li>
-                        <a href="#"  class="notifications" id="notifications"></button>
-                        <i class="fa-solid fa-bell" style="color: #fff;"></i>
-                    </li>
-                    <li>
-                        <a href="#" class="account-menu-item" id="account-menu-item">
-                            <img src="/images/user.png" alt="Avatar do usuário logado">
-                            <i class="fa-solid fa-caret-down" style="color: #fff;"></i>
-                        </a>
-                    </li>
-                </ul>
+    
+    <div class="hero">
+        <header>
+            <div>
+                <a href="http://Netflix.com.br">
+                    <img class="header__img" src="/images/logo.png" alt="Logo do Netflix">
+                </a>
             </div>
-        </div>
-
-    </header>
-
-    <main>
-        <section class="banner">
-            <img src="./images/banner.png" alt="Nome do filme SpiderHead">
-            <p class="banner__texto">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
             
-            <div class="banner__info">
-                <button class="banner__btn banner__btn-play"> 
-                    <i class="fa-solid fa-play" style="color: black;"></i> 
-                    <span class="banner__texto-assistir">Assistir</span>
-                </button>
-                
-                <button class="banner__btn banner__btn-info"> 
-                    <i class="fa-solid fa-circle-info" style="color: white;"></i> 
-                    <span class="banner__texto-info">Mais informações</span>   
-                </button>   
-            </div>
-        </section>
-        
-        <section>
-            <!-- Lista dos filmes-->
-        </section>
-        
-    </main>
+            <div class="navbar">  
+                <nav class="navbar__mapa">
+                    <ul>
+                        <li>
+                            <a href="http://">Início</a>    
+                        </li>
+                        <li>
+                            <a href="http://">Séries</a>    
+                        </li>
+                        <li>
+                            <a href="http://">Filmes</a>    
+                        </li>
+                        <li>
+                            <a href="http://">Bombando</a>    
+                        </li>
+                        <li>
+                            <a href="http://">Minha Lista</a>    
+                        </li>
+                    </ul>
+                </nav>
 
-    <footer>
-    <!-- Rodapé do site -->
-    </footer>
+                <div class="navbar__user">
+                    <ul>
+                        <li>
+                            <a href="#" class="searchTab" id="searchTab">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>
+                        </li>
+                        <li>
+                            <a href="#"  class="notifications" id="notifications"></button>
+                            <i class="fa-solid fa-bell" style="color: #fff;"></i>
+                        </li>
+                        <li>
+                            <a href="#" class="account-menu-item" id="account-menu-item">
+                                <img src="/images/user.png" alt="Avatar do usuário logado">
+                                <i class="fa-solid fa-caret-down" style="color: #fff;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="banner">
+                <img src="./images/banner.png" alt="Nome do filme SpiderHead">
+                <p>Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
+                
+                <div class="banner__info">
+                    <button class="banner__btn banner__btn-play"> 
+                        <i class="fa-solid fa-play" style="color: black;"></i> 
+                        <span class="banner__texto-assistir">Assistir</span>
+                    </button>
+                    
+                    <button class="banner__btn banner__btn-info"> 
+                        <i class="fa-solid fa-circle-info" style="color: white;"></i> 
+                        <span class="banner__texto-info">Mais informações</span>   
+                    </button>   
+                </div>
+            </section>
+            
+            <section class="categorias">
+                <!-- Lista dos filmes-->
+                <div class="swiper">
+                    <p class="categorias__card-titulo">Minha lista</p>
+                    <section class="categorias__card-filmes swiper-wrapper">
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 1.png" alt="Bojack Horseman" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 2.png" alt="Ozark" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 3.png" alt="A vizinha da mulher na janela" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 4.png" alt="Breaking Bad" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 5.png" alt="The end of th F**ing world" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 6.png" alt="Boneca Russa" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 7.png" alt="Pray away" />
+                        </div>   
+                    </section>
+
+                    <!-- Swiper Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-arrow-button swiper-button-prev"></div>
+                    <div class="swiper-arrow-button swiper-button-next"></div>
+                </div>
+                
+                <div class="swiper">
+                    <p class="categorias__card-titulo">Em alta</p>
+                    <section class="categorias__card-filmes swiper-wrapper">
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 8.png" alt="Stranger Things" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 9.png" alt="The Umbrella Academy" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 10.png" alt="Peaky Blinders - Sangue, Apostas e Navalhas" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 11.png" alt="Arremessando alto" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 12.png" alt="Amor e Gelato" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 13.png" alt="La casa de papel" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 14.png" alt="Polar" />
+                        </div>
+                    </section>
+                        
+                    <!-- Swiper Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-arrow-button swiper-button-prev"></div>
+                    <div class="swiper-arrow-button swiper-button-next"></div>
+                </div>
+                
+                <div class="swiper">
+                    <p class="categorias__card-titulo">Séries estrangeiras</p>
+                    <section class="categorias__card-filmes swiper-wrapper">
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 15.png" alt="Queen Loretta" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 16.png" alt="AS 7 vidas de Lea" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 17.png" alt="Young Royals" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 18.png" alt="DARK" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 19.png" alt="Bem vindo ao Eden" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 20.png" alt="Elize Matsunaga - Era uma vez um crime" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 21.png" alt="The ted bundy tapes - Conversations with a killer" />
+                        </div>
+                    </section>
+
+                    <!-- Swiper Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-arrow-button swiper-button-prev"></div>
+                    <div class="swiper-arrow-button swiper-button-next"></div>
+                </div>
+                
+                <div class="swiper">
+                    <p class="categorias__card-titulo">Séries exêntricas de humor ácido</p>
+                    <section class="categorias__card-filmes swiper-wrapper">
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 22.png" alt="Fyre - The greatest party that never happened" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 23.png" alt="Friends from college" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 24.png" alt="Riverdale" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 25.png" alt="Velvet Buzzsaw" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 26.png" alt="The good place" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 27.png" alt="Unbreakable Kimmy Shimidt" />
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <img src="./images/movies/Filme 28.png" alt="Gabriel Fluffy Iglesias - One show fits all" />
+                        </div>
+                    </section>
+
+                    <!-- Swiper Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-arrow-button swiper-button-prev"></div>
+                    <div class="swiper-arrow-button swiper-button-next"></div>
+                </div>
+
+            </section>
+        
+
+
+        </main>
+
+
+
+
+        <footer>
+        <!-- Rodapé do site -->
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>
