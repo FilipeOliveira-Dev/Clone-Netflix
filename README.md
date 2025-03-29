@@ -18,10 +18,10 @@
 
 <li> Day 01 - Banner ✅
 <li> Day 02 - Menu de Navegação ✅
-<li> Day 03 - Trilho: Minha Lista
-<li> Day 04 - Trilho: Em Alta (com hover)
-<li> Day 05 - Trilho: Séries estrangeiras (com slider)
-<li> Day 06 - Footer
+<li> Day 03 - Trilho: Minha Lista  (com slider) ✅
+<li> Day 04 - Trilho: Em Alta  (com slider) ✅
+<li> Day 05 - Trilho: Séries estrangeiras (com slider) ✅
+<li> Day 06 - Footer  ✅
 <li> Day 07 - Deploy da página
 <br>
 <br>

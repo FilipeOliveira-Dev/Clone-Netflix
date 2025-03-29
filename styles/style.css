@@ -57,6 +57,7 @@ header {
 
 .navbar__mapa ul li:hover {
     color: var(--cor-branco);
+    transition: 0.4s;
 }
 
 /* HEADER DA DIREITA */
@@ -103,16 +104,24 @@ header {
     margin-right: 1.5rem;
 }
 
+.banner__btn:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
 .banner__btn-play {
     background-color: var(--cor-branco);
     width: 40%;
 }
 
+
 .banner__btn-info {
     background-color: rgba(109, 109, 110, 0.4);
     color: var(--cor-branco);
     width: 60%;
+
 }
+
 
 /* CATEGORIAS FILMES */
 
@@ -122,7 +131,7 @@ header {
 }
 
 .categorias__card-titulo{
-    color: #e5e5e5e5;
+    color: #e5e5e5;
     font-size: 18px;
     line-height: 17px;
     font-weight: 600;
@@ -135,4 +144,47 @@ header {
 
 .swiper-arrow-button {
     color: var(--cor-branco);
+}
+
+.social_links {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.social_links li {
+    margin-right: 24px;
+    font-size: 1.3rem;
+}
+
+/* FOOTER */
+footer {
+    color: var(--cor-cinza);
+    font-size: 0.9rem;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links ul li{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+footer a {
+    display: inline-block;
+    border: solid 1px var(--cor-cinza);
+    padding: 0.5rem 1rem;
+    margin: 12px 0;
+}
+
+.footer__links ul li:hover, footer a:hover{
+    color: var(--cor-branco);
+    transition: 0.4s;
+}
+
+footer p {
+    font-size: 0.6rem;
+    margin-top: 24px;
 }
