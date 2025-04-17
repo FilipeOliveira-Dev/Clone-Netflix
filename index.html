@@ -13,6 +13,8 @@
     <div class="background__img">
     
     <div class="hero">
+        
+        <!-- HEADER -->
         <header>
             <div>
                 <a href="http://Netflix.com.br">
@@ -20,6 +22,7 @@
                 </a>
             </div>
             
+            <!-- NAVBAR SUPERIOR -->
             <div class="navbar">  
                 <nav class="navbar__mapa">
                     <ul>
@@ -41,6 +44,7 @@
                     </ul>
                 </nav>
 
+                <!-- NAVBAR LATERAL USER -->
                 <div class="navbar__user">
                     <ul>
                         <li>
@@ -55,15 +59,64 @@
                         </li>
                         <li>
                             <a href="#" class="account-menu-item" id="account-menu-item">
-                                <img src="/images/user.png" alt="Avatar do usuário logado">
+                                <img src="/images/users/user-1.png" alt="Avatar do usuário logado" onmouseover="arrowUp()" onmouseout="arrowDown()">
                                 <i class="fa-solid fa-caret-down" style="color: #fff;"></i>
                             </a>
                         </li>
                     </ul>
+
+                    <!-- NAVBAR DROPDOWN LISTA USER -->
+                    <div class="navbar__user--dropdown" id="navbar__user--dropdown"  onmouseover="arrowUp()" onmouseout="arrowDown()">
+                        <div>
+                            <li>
+                                <img src="/images/users/User-1.png" alt="Avatar Usuário 1">    
+                                <a href="#">BATMAN</a>
+                            </li>
+                            <li>
+                                <img src="/images/users/User-2.png" alt="Avatar Usuário 2">    
+                                <a href="#">Robin</a>
+                            </li>
+                            <li>
+                                <img src="/images/users/User-3.png" alt="Avatar Usuário 3">    
+                                <a href="">Charada</a>
+                            </li>
+                            <li>
+                                <img src="/images/users/User-Infantil.png" alt="Avatar sessão infantil">    
+                                <a href="https://www.netflix.com/Kids">Infantil</a>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li>
+                                <i class="fa-solid fa-pencil"></i>  
+                                <a href="https://www.netflix.com/account/profiles">Gerenciar perfis</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-users-between-lines"></i>
+                                <a href="https://www.netflix.com/account/profile/transfercontext">Transferir perfil</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-user"></i>   
+                                <a href="https://www.netflix.com/account">Conta</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-question"></i>    
+                                <a href="https://help.netflix.com/pt">Central de ajuda</a>
+                            </li>
+                        </div>
+                        
+                        <div>
+                            <li class="navbar__user--logout">
+                                <a href="https://www.netflix.com/br/logout">Sair da Netflix</a>
+                            </li>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </header>
-
+        
+        <!-- MAIN - BANNER -->
         <main>
             <section class="banner">
                 <img src="./images/banner.png" alt="Nome do filme SpiderHead">
@@ -82,6 +135,7 @@
                 </div>
             </section>
             
+            <!-- MAIN - CATEGORIAS -->
             <section class="categorias">
                 <!-- Lista dos filmes-->
                 <div class="swiper">
@@ -89,37 +143,37 @@
                     <section class="categorias__card-filmes swiper-wrapper">
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 1.png" alt="Bojack Horseman" />
+                                <img src="./images/movies/Filme 1.png" alt="Bojack Horseman" class="animation"/>
+                            </a>
+                        </div>
+                        <div class="categorias__filmes swiper-slide">
+                            <a href="http://" >
+                                <img src="./images/movies/Filme 2.png" alt="Ozark" class="animation"/>
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 2.png" alt="Ozark" />
+                                <img src="./images/movies/Filme 3.png" alt="A vizinha da mulher na janela" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 3.png" alt="A vizinha da mulher na janela" />
+                                <img src="./images/movies/Filme 4.png" alt="Breaking Bad" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 4.png" alt="Breaking Bad" />
+                                <img src="./images/movies/Filme 5.png" alt="The end of th F**ing world" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 5.png" alt="The end of th F**ing world" />
+                                <img src="./images/movies/Filme 6.png" alt="Boneca Russa" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 6.png" alt="Boneca Russa" />
-                            </a>
-                        </div>
-                        <div class="categorias__filmes swiper-slide">
-                            <a href="http://">
-                                <img src="./images/movies/Filme 7.png" alt="Pray away" />
+                                <img src="./images/movies/Filme 7.png" alt="Pray away" class="animation" />
                             </a>
                         </div>   
                     </section>
@@ -136,37 +190,37 @@
                     <section class="categorias__card-filmes swiper-wrapper">
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 8.png" alt="Stranger Things" />
+                                <img src="./images/movies/Filme 8.png" alt="Stranger Things" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 9.png" alt="The Umbrella Academy" />
+                                <img src="./images/movies/Filme 9.png" alt="The Umbrella Academy" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 10.png" alt="Peaky Blinders - Sangue, Apostas e Navalhas" />
+                                <img src="./images/movies/Filme 10.png" alt="Peaky Blinders - Sangue, Apostas e Navalhas" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 11.png" alt="Arremessando alto" />
+                                <img src="./images/movies/Filme 11.png" alt="Arremessando alto" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 12.png" alt="Amor e Gelato" />
+                                <img src="./images/movies/Filme 12.png" alt="Amor e Gelato" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 13.png" alt="La casa de papel" />
+                                <img src="./images/movies/Filme 13.png" alt="La casa de papel" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 14.png" alt="Polar" />
+                                <img src="./images/movies/Filme 14.png" alt="Polar" class="animation" />
                             </a>
                         </div>
                     </section>
@@ -183,37 +237,37 @@
                     <section class="categorias__card-filmes swiper-wrapper">
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 15.png" alt="Queen Loretta" />
+                                <img src="./images/movies/Filme 15.png" alt="Queen Loretta" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 16.png" alt="AS 7 vidas de Lea" />
+                                <img src="./images/movies/Filme 16.png" alt="AS 7 vidas de Lea" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 17.png" alt="Young Royals" />
+                                <img src="./images/movies/Filme 17.png" alt="Young Royals" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 18.png" alt="DARK" />
+                                <img src="./images/movies/Filme 18.png" alt="DARK" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 19.png" alt="Bem vindo ao Eden" />
+                                <img src="./images/movies/Filme 19.png" alt="Bem vindo ao Eden" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 20.png" alt="Elize Matsunaga - Era uma vez um crime" />
+                                <img src="./images/movies/Filme 20.png" alt="Elize Matsunaga - Era uma vez um crime" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 21.png" alt="The ted bundy tapes - Conversations with a killer" />
+                                <img src="./images/movies/Filme 21.png" alt="The ted bundy tapes - Conversations with a killer" class="animation" />
                             </a>
                         </div>
 
@@ -230,37 +284,37 @@
                     <section class="categorias__card-filmes swiper-wrapper">
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 22.png" alt="Fyre - The greatest party that never happened" />
+                                <img src="./images/movies/Filme 22.png" alt="Fyre - The greatest party that never happened" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 23.png" alt="Friends from college" />
+                                <img src="./images/movies/Filme 23.png" alt="Friends from college" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 24.png" alt="Riverdale" />
+                                <img src="./images/movies/Filme 24.png" alt="Riverdale" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 25.png" alt="Velvet Buzzsaw" />
+                                <img src="./images/movies/Filme 25.png" alt="Velvet Buzzsaw" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 26.png" alt="The good place" />
+                                <img src="./images/movies/Filme 26.png" alt="The good place" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 27.png" alt="Unbreakable Kimmy Shimidt" />
+                                <img src="./images/movies/Filme 27.png" alt="Unbreakable Kimmy Shimidt" class="animation" />
                             </a>
                         </div>
                         <div class="categorias__filmes swiper-slide">
                             <a href="http://">
-                                <img src="./images/movies/Filme 28.png" alt="Gabriel Fluffy Iglesias - One show fits all" />
+                                <img src="./images/movies/Filme 28.png" alt="Gabriel Fluffy Iglesias - One show fits all" class="animation" />
                             </a>
                         </div>
                     </section>
@@ -272,6 +326,7 @@
                     <div class="swiper-arrow-button swiper-button-next"></div>
                 </div>
 
+                <!-- SOCIAL LINKS -->
                 <div>
                     <ul class="social_links">
                         <li>
@@ -300,6 +355,7 @@
         
         </main>
 
+        <!-- FOOTER -->
         <footer>
             <div class="footer__links">
                 <ul>
@@ -327,14 +383,17 @@
                     <li>Informações corporativas</li>
                 </ul>
             </div>
-            
-            <a href="">Código do serviço</a>
+    
+            <!-- CÓDIGO DE SERVIÇO -->
+            <a onclick="gerarCodigoServico()" id="codigoServico">Código do serviço</a>    
             <p>© 1997-2022 Netflix, Inc.</p>
 
         </footer>
     </div>
 
+    <!-- IMPORT SCRIPTS JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="swiper.js"></script>
+    <script src="/script/swiper.js"></script>
+    <script src="/script/app.js"></script>
 </body>
 </html>

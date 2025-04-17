@@ -1,0 +1,39 @@
+/* CATEGORIAS FILMES */
+
+.categorias__card-filmes{
+    display: flex;
+    margin: 1rem 0 2rem 0;
+}
+
+.categorias__card-titulo{
+    color: #e5e5e5;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: 600;
+}
+
+.categorias__filmes img {
+    max-width: 100%;
+    padding-right: 8px;
+}
+
+.swiper-arrow-button {
+    color: var(--cor-branco);
+}
+
+.social_links {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.social_links li {
+    margin-right: 24px;
+    font-size: 1.3rem;
+}
+
+.animation:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+    transform-origin: right;
+    transition: var(--transition-hover)
+}

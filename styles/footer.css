@@ -1,0 +1,32 @@
+/* FOOTER */
+footer {
+    color: var(--cor-cinza);
+    font-size: 0.8rem;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links ul li{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+footer a {
+    display: inline-block;
+    border: solid 1px var(--cor-cinza);
+    padding: 0.5rem;
+}
+
+.footer__links ul li:hover, footer a:hover{
+    color: var(--cor-branco);
+    transition: var(--transition-hover);
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 0.6rem;
+    margin-top: 24px;
+}
