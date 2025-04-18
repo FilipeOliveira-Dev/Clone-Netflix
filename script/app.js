@@ -1,7 +1,6 @@
 let accountMenu = document.getElementById('account-menu-item');
 let arrow = accountMenu.querySelector('.fa-solid');
 let dropdownMenu = document.getElementById('navbar__user--dropdown');
-let timeoutID;
 
 // APARECER DROPDOWN QUANDO PASSA O MOUSE
 function arrowUp() {

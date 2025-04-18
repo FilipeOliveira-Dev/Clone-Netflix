@@ -35,22 +35,26 @@ header {
         rgba(0, 0, 0, 0.2) 80%,
         rgba(0, 0, 0, 0.8) 100%
       ),
-        url("../images/poster.png");
+        url("../images/page/poster.png");
     background-size: cover;
     padding: 0.30rem 0.75rem 0 0.75rem;
 }
 
+
 /* MEDIA QUERIE PARA TABLET */
 @media screen and (max-width: 720px) {
     .background__img {
-        height: 50vh;
+        height: 48vh;
     }
 }
 
 
 /* MEDIA QUERIE PARA CELULAR */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 575px) {
     .hero {
         padding: 0 0.5rem;
+    }
+    .background__img {
+        height: 35vh;
     }
 }

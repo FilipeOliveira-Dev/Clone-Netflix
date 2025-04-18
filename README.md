@@ -45,7 +45,11 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 <br>
 <br>
 
-# 📷 Screenshots:
+## 🎨 Referência do Figma:
+
+<img src="./images/page/Clone Netflix.png" alt="Clone Netflix - Figma">
+
+## 📷 Screenshots:
 
 <div align="center">
 <h3>Página completa - Desktop</h3><br>
@@ -54,9 +58,13 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
       
 </div>
 
-# 👨🏻‍💻 Desenvolvedor:
-<a target="_blank" href="https://www.linkedin.com/in/filipeoliveiradasilva/">
-<img src="https://github.com/filipe-oliveiradev/aluraplus/assets/157177590/2f71879e-d9b9-4cb2-b89d-81586805a738" alt="Contatos do Filipe Oliveira"></a>
+## 👨🏻‍💻 Desenvolvedor:
+
+<li> <b>E-mail:</b> <a href="mailto:filipe.osilvadev@gmail.com">Filipe.osilvadev@gmail.com</a>
+<li> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/filipeoliveiradasilva/">Filipe Oliveira</a>
+<li> <b>Estudos:</b> <a href="https://filipeoliveira-dev.github.io/Plataformas-De-Estudo/">Minhas Plataformas de Estudo</a>
+
+    Sinta-se à vontade para explorar meus repositórios e entrar em contato! 😊
 
 ---
 <p align="center">

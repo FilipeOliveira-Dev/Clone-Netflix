@@ -32,7 +32,7 @@ footer p {
 }
 
 /* MEDIA QUERIE PARA CELULAR */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 575px) {
     .footer__links ul li{
         margin: 15px 0;
         font-size: 0.7rem;

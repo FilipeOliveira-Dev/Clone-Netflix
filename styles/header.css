@@ -78,7 +78,7 @@
 
 
 /* MEDIA QUERIE PARA CELULAR */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 575px) {
     .header__img {
         margin-right: 12px;
     }
