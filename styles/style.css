@@ -39,3 +39,18 @@ header {
     background-size: cover;
     padding: 0.30rem 0.75rem 0 0.75rem;
 }
+
+/* MEDIA QUERIE PARA TABLET */
+@media screen and (max-width: 720px) {
+    .background__img {
+        height: 50vh;
+    }
+}
+
+
+/* MEDIA QUERIE PARA CELULAR */
+@media screen and (max-width: 580px) {
+    .hero {
+        padding: 0 0.5rem;
+    }
+}

@@ -22,13 +22,15 @@
 <li> Day 04 - Trilho: Em Alta  (com slider) ✅
 <li> Day 05 - Trilho: Séries estrangeiras (com slider) ✅
 <li> Day 06 - Footer  ✅
-<li> Day 07 - Deploy da página
+<li> Day 07 - Deploy da página ✅
 
 <br>
+
 <u>Conteúdos Adicionais:</u>
    <li>Hover com transição nos botões. Links atualizados de acordo com o site.
    <li>Dropdown aparece/desaparece quando passa o mouse do usuário usando JavaScript.
    <li>Código do serviço gera um número aleatório usando JavaScript.
+   <li>Responsividade em dispositivos Desktop, Tablet e Mobile.
 <br>
 
 

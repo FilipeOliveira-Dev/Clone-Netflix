@@ -14,9 +14,10 @@
 
 .navbar__mapa ul {
     display: flex;
+    align-items: center;
     color: var(--cor-cinza);
     gap: 12px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .navbar__mapa ul li:hover {
@@ -73,4 +74,12 @@
 
 .navbar__user--logout {
     justify-content: center;
+}
+
+
+/* MEDIA QUERIE PARA CELULAR */
+@media screen and (max-width: 580px) {
+    .header__img {
+        margin-right: 12px;
+    }
 }

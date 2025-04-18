@@ -22,7 +22,7 @@
 .banner__btn {
     height: 2.5rem;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     cursor: pointer;
     margin-right: 1.5rem;
@@ -42,4 +42,30 @@
     background-color: rgba(109, 109, 110, 0.4);
     color: var(--cor-branco);
     width: 60%;
+}
+
+/* MEDIA QUERIE PARA TABLET */
+@media screen and (max-width: 720px) {
+    .banner {
+        width: 50%;
+        padding: 3rem 0;
+    }
+    
+    .banner__btn {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* MEDIA QUERIE PARA CELULAR */
+@media screen and (max-width: 580px) {
+    .banner p {
+        font-size: 0.8rem;
+    }
+
+    .banner__btn {
+        height: 1.8rem;
+        font-size: 0.7rem;
+    }
 }

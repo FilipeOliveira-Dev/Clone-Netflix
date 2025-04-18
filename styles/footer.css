@@ -28,5 +28,13 @@ footer a {
 
 footer p {
     font-size: 0.6rem;
-    margin-top: 24px;
+    margin: 24px 0;
+}
+
+/* MEDIA QUERIE PARA CELULAR */
+@media screen and (max-width: 580px) {
+    .footer__links ul li{
+        margin: 15px 0;
+        font-size: 0.7rem;
+    }
 }
