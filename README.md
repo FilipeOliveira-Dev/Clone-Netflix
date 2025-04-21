@@ -6,7 +6,7 @@
 </hr>
 </hr>
 
-## 📝 Descrição
+## 💻 Projeto
 
    <li>Projeto desenvolvido para o Desafio: <b><a href="https://7daysofcode.io/matricula/html-css-netflix">7 Days of Code - HTML e CSS</b></a> da <a href="https://www.alura.com.br">Alura</a>. Orientado pela <b><a href="https://www.linkedin.com/in/fernandadegolin/">Fernanda Degolin</b></a>. 
    <li>Esse desafio faz parte da formação Front-End, que tem como objetivo treinar os conhecimentos aprendidos no curso de HTML e CSS.
