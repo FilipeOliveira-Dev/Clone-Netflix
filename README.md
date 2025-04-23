@@ -1,7 +1,7 @@
 <h1 align="center">Clone Netflix - 7 Days of Code</h1>
 
 <a target="_blank" href="https://clone-netflix-7yn1dkoyh-filipe-oliveiras-projects.vercel.app"></a>
-<img align="center" src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/9c2672bf-a50a-4f32-87af-80313ac4651b" alt="Logo da 7 Days of Code">
+<img align="center" src="https://github.com/user-attachments/assets/491b545f-33f6-48c6-9d62-ec4a1df63b38" alt="Logo da 7 Days of Code">
 
 </hr>
 </hr>
