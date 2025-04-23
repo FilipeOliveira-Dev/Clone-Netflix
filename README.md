@@ -1,6 +1,6 @@
 <h1 align="center">Clone Netflix - 7 Days of Code</h1>
 
-<a target="_blank" href="https://clone-netflix-7yn1dkoyh-filipe-oliveiras-projects.vercel.app"></a>
+<a target="_blank" href="https://clone-netflix-rosy.vercel.app"></a>
 <img align="center" src="https://github.com/user-attachments/assets/491b545f-33f6-48c6-9d62-ec4a1df63b38" alt="Logo da 7 Days of Code">
 
 </hr>
@@ -53,9 +53,8 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 
 <div align="center">
 <h3>Página completa - Desktop</h3><br>
-
-</div>
-      
+    <a target="_blank" href="https://clone-netflix-rosy.vercel.app">
+      <img width="74.8%" src="https://github.com/user-attachments/assets/5b722935-1245-4a3e-b172-066082eaf91b" alt="Clone Netflix versao desktop"></a>
 </div>
 
 ## 👨🏻‍💻 Desenvolvedor:
