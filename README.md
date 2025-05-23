@@ -47,7 +47,7 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 
 ## 🎨 Referência do Figma:
 
-<img src="./images/page/Clone Netflix.png" alt="Clone Netflix - Figma">
+<img src="./assets/page/Clone Netflix.png" alt="Clone Netflix - Figma">
 
 ## 📷 Screenshots:
 
