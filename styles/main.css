@@ -35,7 +35,7 @@ header {
         rgba(0, 0, 0, 0.2) 80%,
         rgba(0, 0, 0, 0.8) 100%
       ),
-        url("../images/page/poster.png");
+        url("../assets/page/poster.png");
     background-size: cover;
     padding: 0.30rem 0.75rem 0 0.75rem;
 }
