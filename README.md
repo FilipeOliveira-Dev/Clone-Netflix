@@ -23,7 +23,7 @@
    <li>Ele consiste em criar uma página clone do <a href="https://www.netflix.com">Netflix</a>, e foi necessário desenvolver a pagina a partir do projeto enviado pelo no Figma.
 <br>
 
-## 📌 Status do projeto: Concluído
+#### 📌 <u>Status do projeto: Concluído</u>
 
 <li> Day 01 - Banner ✅
 <li> Day 02 - Menu de Navegação ✅
@@ -33,9 +33,7 @@
 <li> Day 06 - Footer  ✅
 <li> Day 07 - Deploy da página ✅
 
-<br>
-
-<u>Conteúdos Adicionais:</u>
+#### 📌 <u>Conteúdos Adicionais:</u>
    <li>Hover com transição nos botões. Links atualizados de acordo com o site.
    <li>Dropdown aparece/desaparece quando passa o mouse do usuário usando JavaScript.
    <li>Código do serviço gera um número aleatório usando JavaScript.
